@@ -1,39 +1,37 @@
-import twc from "tailwindcss/colors";
-
 export const allColors = [
-  {
-    label: "Preta",
-    value: "black",
-    color: twc.black,
-  },
-  {
-    label: "Verde",
-    value: "green",
-    color: twc.green["600"],
-  },
   {
     label: "Azul",
     value: "blue",
-    color: twc.blue["900"],
-  },
-  {
-    label: "Vinho",
-    value: "wine",
-    color: twc.red["900"],
-  },
-  {
-    label: "Vermelha",
-    value: "red",
-    color: twc.red["600"],
+    color: "#001b42",
   },
   {
     label: "Azul claro",
     value: "light-blue",
-    color: twc.blue["400"],
+    color: "#6da5b8",
   },
   {
     label: "Cinza",
     value: "gray",
-    color: twc.zinc["400"],
+    color: "#c1c1c1",
+  },
+  {
+    label: "Preta",
+    value: "black",
+    color: "#0a0000",
+  },
+  {
+    label: "Rosa",
+    value: "pink",
+    color: "#ff9ebe",
+  },
+  {
+    label: "Vinho",
+    value: "wine",
+    color: "#951825",
+  },
+  {
+    label: "Vermelha",
+    value: "red",
+    color: "#8c000a",
   },
 ];
