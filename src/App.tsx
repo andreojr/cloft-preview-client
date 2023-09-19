@@ -33,7 +33,7 @@ function App() {
   }
 
   return (
-    <div className="flex items-center justify-center">
+    <div className="bg-slate-950 h-screen flex items-center justify-center">
       <div className="max-w-3xl p-12 flex items-center justify-center">
         <div className="bg-slate-900/50 w-full flex flex-col gap-4 items-center justify-center rounded-md p-12">
           <Select onChange={handleSelected} options={arts} className="w-full" />
