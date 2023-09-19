@@ -36,9 +36,4 @@ export const allColors = [
     value: "gray",
     color: twc.zinc["400"],
   },
-  {
-    label: "Branca",
-    value: "white",
-    color: twc.white,
-  },
 ];
