@@ -27,7 +27,7 @@ function App() {
           <div className={clsx("bg-slate-900 w-full text-slate-400 rounded-md overflow-hidden", {
             "h-96 flex items-center justify-center text-center": !art || !color,
           })}>
-            {art && color ? <TShirt color={color} artUrl={art} /> : <p>Seleciona para <br /> pré-visualização...</p>}
+            {art && color ? <TShirt color={color} artUrl={art} /> : <p>Selecione para <br /> pré-visualização...</p>}
           </div>
           <Select onChange={handleSelected} options={allArts} className="w-full" />
           <ToggleGroup.Root type="single" className="grid grid-flow-row grid-cols-2 gap-3 w-full" onValueChange={handleColorChange}>
