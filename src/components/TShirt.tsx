@@ -3,7 +3,7 @@ import mockup from "../assets/mockup-tshirt.png";
 import { HTMLAttributes } from "react";
 
 const tshirt = tv({
-  base: "cursor-pointer w-96 relative flex items-center justify-center rounded-md overflow-hidden hover:scale-150 hover:translate-y-10 transition-transform",
+  base: "cursor-pointer w-full relative flex items-center justify-center rounded-md overflow-hidden hover:scale-150 hover:translate-y-10 transition-transform",
 });
 
 type TShirtProps = HTMLAttributes<HTMLDivElement> & VariantProps<typeof tshirt> & {
