@@ -21,19 +21,4 @@ export const allArts = [
         value: "code",
         url: code,
     },
-    {
-        label: "Fun",
-        value: "fun",
-        url: fun,
-    },
-    {
-        label: "Loading",
-        value: "loading",
-        url: loading,
-    },
-    {
-        label: "Program",
-        value: "program",
-        url: program,
-    },
 ];
